@@ -1,4 +1,4 @@
-# YOLO-Vision-Bot: 利用微软AI模型yolov8n.onnx，基于 Rust开发 的 适用于反恐精英2：CS2 自动化视觉瞄准助手
+# YOLO-Vision-Bot: 基于 Rust和视觉模型yolov8n.onnx开发的适用于反恐精英2：CS2，AI视觉瞄准助手
 
 ## 简介 (Overview)
 YOLO-Vision-Bot 是一款基于 Rust 构建的高性能应用层（Ring 3）自动瞄准助手。本项目集成了 YOLOv8 目标检测模型与 ONNX Runtime 引擎（支持 CUDA 硬件加速），可实现超低延迟的实时屏幕捕获、敌人识别与自动化的鼠标操作指令分发。
