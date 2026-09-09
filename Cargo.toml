@@ -1,0 +1,15 @@
+[package]
+name = "cv_game_bot"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+screenshots = "0.8"
+enigo = "0.1"
+rand = "0.8" #随即引擎（用于生成人类肌肉抖动）
+device_query = "2.1" #硬件监听（用于制作紧急刹车开关）
+crossbeam = "0.8" #新增：跨车间通信传送
+#新增：微软开源的跨平台AI推理引擎（Rust官方绑定）
+ort = { version = "2.0.0-rc.13", features = ["cuda"] }
+#新增：用于将图片撕裂成多维张量（Tensor）的矩阵工具
+image = "0.24"
